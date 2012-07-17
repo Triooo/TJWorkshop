@@ -9,5 +9,8 @@
 #import "PersonalInfo.h"
 
 @implementation PersonalInfo
+@synthesize nameOfCount;
+@synthesize passwordOfCount;
+@synthesize email;
 
 @end

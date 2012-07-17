@@ -14,7 +14,7 @@
 @synthesize arrivalCity;
 /*-(void)setCalendar:(NSCalendar *)newCalendar
 {
-    //do sth.jhsdjfhsk
+    //do sth.
 }
 -(void)setDepartureCity:(NSString *)*/
 -(void)updateInfomationToPush

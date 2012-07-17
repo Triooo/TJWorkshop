@@ -9,5 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface PersonalInfo : NSObject
+{
+    NSString *nameOfCount;
+    NSString *passwordOfCount;
+    NSString *email;
+}
+@property (nonatomic,strong) NSString *nameOfCount;
+@property (nonatomic,strong) NSString *passwordOfCount;
+@property (nonatomic,strong) NSString *email;
 
 @end

@@ -11,6 +11,10 @@
 		5E885D8D15B5850200B17AA3 /* PersonalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8715B5850200B17AA3 /* PersonalInfo.m */; };
 		5E885D8E15B5850200B17AA3 /* PlaneTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8915B5850200B17AA3 /* PlaneTicket.m */; };
 		5E885D8F15B5850200B17AA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8B15B5850200B17AA3 /* User.m */; };
+		5E885D9715B5903B00B17AA3 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E885D9615B5903B00B17AA3 /* default.png */; };
+		5E885D9A15B590EC00B17AA3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D9915B590EC00B17AA3 /* LoginViewController.m */; };
+		5E885D9F15B594C300B17AA3 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D9E15B594C300B17AA3 /* SignUpViewController.m */; };
+		5E885DA215B5951600B17AA3 /* PushInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885DA115B5951600B17AA3 /* PushInfoViewController.m */; };
 		A94CF86915B1A19D00202290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86815B1A19D00202290 /* UIKit.framework */; };
 		A94CF86B15B1A19D00202290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86A15B1A19D00202290 /* Foundation.framework */; };
 		A94CF86D15B1A19D00202290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86C15B1A19D00202290 /* CoreGraphics.framework */; };
@@ -40,6 +44,13 @@
 		5E885D8915B5850200B17AA3 /* PlaneTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneTicket.m; sourceTree = "<group>"; };
 		5E885D8A15B5850200B17AA3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		5E885D8B15B5850200B17AA3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5E885D9615B5903B00B17AA3 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		5E885D9815B590EC00B17AA3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5E885D9915B590EC00B17AA3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5E885D9D15B594C300B17AA3 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		5E885D9E15B594C300B17AA3 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		5E885DA015B5951600B17AA3 /* PushInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushInfoViewController.h; sourceTree = "<group>"; };
+		5E885DA115B5951600B17AA3 /* PushInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInfoViewController.m; sourceTree = "<group>"; };
 		A94CF86415B1A19D00202290 /* TJWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94CF86815B1A19D00202290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A94CF86A15B1A19D00202290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +95,7 @@
 			children = (
 				A9D4100515B561DE000E11C8 /* bar.png */,
 				A9D4100615B561DE000E11C8 /* 背景.png */,
+				5E885D9615B5903B00B17AA3 /* default.png */,
 				A94CF88515B1A93600202290 /* Argentina.png */,
 				A94CF88615B1A93600202290 /* Australia.png */,
 				A94CF88715B1A93600202290 /* Austria.png */,
@@ -94,6 +106,37 @@
 				A94CF88C15B1A93600202290 /* Hong Kong.png */,
 			);
 			name = sources;
+			sourceTree = "<group>";
+		};
+		5E885D9B15B5926C00B17AA3 /* View&Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A94CF87A15B1A19D00202290 /* MainStoryboard.storyboard */,
+				5E885D9815B590EC00B17AA3 /* LoginViewController.h */,
+				5E885D9915B590EC00B17AA3 /* LoginViewController.m */,
+				A94CF87D15B1A19D00202290 /* TJViewController.h */,
+				A94CF87E15B1A19D00202290 /* TJViewController.m */,
+				5E885D9D15B594C300B17AA3 /* SignUpViewController.h */,
+				5E885D9E15B594C300B17AA3 /* SignUpViewController.m */,
+				5E885DA015B5951600B17AA3 /* PushInfoViewController.h */,
+				5E885DA115B5951600B17AA3 /* PushInfoViewController.m */,
+			);
+			name = "View&Controller";
+			sourceTree = "<group>";
+		};
+		5E885D9C15B5928B00B17AA3 /* Basic Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E885D8415B5850200B17AA3 /* InformationToPush.h */,
+				5E885D8515B5850200B17AA3 /* InformationToPush.m */,
+				5E885D8615B5850200B17AA3 /* PersonalInfo.h */,
+				5E885D8715B5850200B17AA3 /* PersonalInfo.m */,
+				5E885D8815B5850200B17AA3 /* PlaneTicket.h */,
+				5E885D8915B5850200B17AA3 /* PlaneTicket.m */,
+				5E885D8A15B5850200B17AA3 /* User.h */,
+				5E885D8B15B5850200B17AA3 /* User.m */,
+			);
+			name = "Basic Classes";
 			sourceTree = "<group>";
 		};
 		A94CF85915B1A19D00202290 = {
@@ -126,20 +169,11 @@
 		A94CF86E15B1A19D00202290 /* TJWorkshop */ = {
 			isa = PBXGroup;
 			children = (
-				5E885D8415B5850200B17AA3 /* InformationToPush.h */,
-				5E885D8515B5850200B17AA3 /* InformationToPush.m */,
-				5E885D8615B5850200B17AA3 /* PersonalInfo.h */,
-				5E885D8715B5850200B17AA3 /* PersonalInfo.m */,
-				5E885D8815B5850200B17AA3 /* PlaneTicket.h */,
-				5E885D8915B5850200B17AA3 /* PlaneTicket.m */,
-				5E885D8A15B5850200B17AA3 /* User.h */,
-				5E885D8B15B5850200B17AA3 /* User.m */,
-				5E885D3E15B583EE00B17AA3 /* sources */,
+				5E885D9C15B5928B00B17AA3 /* Basic Classes */,
+				5E885D9B15B5926C00B17AA3 /* View&Controller */,
 				A94CF87715B1A19D00202290 /* TJAppDelegate.h */,
 				A94CF87815B1A19D00202290 /* TJAppDelegate.m */,
-				A94CF87A15B1A19D00202290 /* MainStoryboard.storyboard */,
-				A94CF87D15B1A19D00202290 /* TJViewController.h */,
-				A94CF87E15B1A19D00202290 /* TJViewController.m */,
+				5E885D3E15B583EE00B17AA3 /* sources */,
 				A94CF86F15B1A19D00202290 /* Supporting Files */,
 			);
 			path = TJWorkshop;
@@ -219,6 +253,7 @@
 				A94CF89415B1A93600202290 /* Hong Kong.png in Resources */,
 				A9D4100715B561DE000E11C8 /* bar.png in Resources */,
 				A9D4100815B561DE000E11C8 /* 背景.png in Resources */,
+				5E885D9715B5903B00B17AA3 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +271,9 @@
 				5E885D8D15B5850200B17AA3 /* PersonalInfo.m in Sources */,
 				5E885D8E15B5850200B17AA3 /* PlaneTicket.m in Sources */,
 				5E885D8F15B5850200B17AA3 /* User.m in Sources */,
+				5E885D9A15B590EC00B17AA3 /* LoginViewController.m in Sources */,
+				5E885D9F15B594C300B17AA3 /* SignUpViewController.m in Sources */,
+				5E885DA215B5951600B17AA3 /* PushInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

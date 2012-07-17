@@ -13,6 +13,7 @@
     NSCalendar* calendar;
     NSString* departureCity;
     NSString* arrivalCity;
+    //price class
 }
 @property (nonatomic,strong) NSCalendar *calendar;
 @property (nonatomic,strong) NSString *departureCity;
