@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E885D8C15B5850200B17AA3 /* InformationToPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8515B5850200B17AA3 /* InformationToPush.m */; };
+		5E885D8D15B5850200B17AA3 /* PersonalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8715B5850200B17AA3 /* PersonalInfo.m */; };
+		5E885D8E15B5850200B17AA3 /* PlaneTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8915B5850200B17AA3 /* PlaneTicket.m */; };
+		5E885D8F15B5850200B17AA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8B15B5850200B17AA3 /* User.m */; };
+		A94CF86915B1A19D00202290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86815B1A19D00202290 /* UIKit.framework */; };
+		A94CF86B15B1A19D00202290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86A15B1A19D00202290 /* Foundation.framework */; };
+		A94CF86D15B1A19D00202290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86C15B1A19D00202290 /* CoreGraphics.framework */; };
+		A94CF87315B1A19D00202290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94CF87115B1A19D00202290 /* InfoPlist.strings */; };
+		A94CF87515B1A19D00202290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94CF87415B1A19D00202290 /* main.m */; };
+		A94CF87915B1A19D00202290 /* TJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94CF87815B1A19D00202290 /* TJAppDelegate.m */; };
+		A94CF87C15B1A19D00202290 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94CF87A15B1A19D00202290 /* MainStoryboard.storyboard */; };
+		A94CF87F15B1A19D00202290 /* TJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94CF87E15B1A19D00202290 /* TJViewController.m */; };
+		A94CF88D15B1A93600202290 /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88515B1A93600202290 /* Argentina.png */; };
+		A94CF88E15B1A93600202290 /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88615B1A93600202290 /* Australia.png */; };
+		A94CF88F15B1A93600202290 /* Austria.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88715B1A93600202290 /* Austria.png */; };
+		A94CF89015B1A93600202290 /* Cameroon.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88815B1A93600202290 /* Cameroon.png */; };
+		A94CF89115B1A93600202290 /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88915B1A93600202290 /* Canada.png */; };
+		A94CF89215B1A93600202290 /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88A15B1A93600202290 /* France.png */; };
+		A94CF89315B1A93600202290 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88B15B1A93600202290 /* Germany.png */; };
+		A94CF89415B1A93600202290 /* Hong Kong.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88C15B1A93600202290 /* Hong Kong.png */; };
+		A9D4100715B561DE000E11C8 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D4100515B561DE000E11C8 /* bar.png */; };
+		A9D4100815B561DE000E11C8 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D4100615B561DE000E11C8 /* 背景.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E885D8415B5850200B17AA3 /* InformationToPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationToPush.h; sourceTree = "<group>"; };
+		5E885D8515B5850200B17AA3 /* InformationToPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationToPush.m; sourceTree = "<group>"; };
+		5E885D8615B5850200B17AA3 /* PersonalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfo.h; sourceTree = "<group>"; };
+		5E885D8715B5850200B17AA3 /* PersonalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfo.m; sourceTree = "<group>"; };
+		5E885D8815B5850200B17AA3 /* PlaneTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneTicket.h; sourceTree = "<group>"; };
+		5E885D8915B5850200B17AA3 /* PlaneTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneTicket.m; sourceTree = "<group>"; };
+		5E885D8A15B5850200B17AA3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5E885D8B15B5850200B17AA3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A94CF86415B1A19D00202290 /* TJWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94CF86815B1A19D00202290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A94CF86A15B1A19D00202290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A94CF86C15B1A19D00202290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A94CF87015B1A19D00202290 /* TJWorkshop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJWorkshop-Info.plist"; sourceTree = "<group>"; };
+		A94CF87215B1A19D00202290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A94CF87415B1A19D00202290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94CF87615B1A19D00202290 /* TJWorkshop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TJWorkshop-Prefix.pch"; sourceTree = "<group>"; };
+		A94CF87715B1A19D00202290 /* TJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJAppDelegate.h; sourceTree = "<group>"; };
+		A94CF87815B1A19D00202290 /* TJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJAppDelegate.m; sourceTree = "<group>"; };
+		A94CF87B15B1A19D00202290 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A94CF87D15B1A19D00202290 /* TJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJViewController.h; sourceTree = "<group>"; };
+		A94CF87E15B1A19D00202290 /* TJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJViewController.m; sourceTree = "<group>"; };
+		A94CF88515B1A93600202290 /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Argentina.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Argentina.png"; sourceTree = "<absolute>"; };
+		A94CF88615B1A93600202290 /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Australia.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Australia.png"; sourceTree = "<absolute>"; };
+		A94CF88715B1A93600202290 /* Austria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Austria.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Austria.png"; sourceTree = "<absolute>"; };
+		A94CF88815B1A93600202290 /* Cameroon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cameroon.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Cameroon.png"; sourceTree = "<absolute>"; };
+		A94CF88915B1A93600202290 /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Canada.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Canada.png"; sourceTree = "<absolute>"; };
+		A94CF88A15B1A93600202290 /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = France.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/France.png"; sourceTree = "<absolute>"; };
+		A94CF88B15B1A93600202290 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Germany.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Germany.png"; sourceTree = "<absolute>"; };
+		A94CF88C15B1A93600202290 /* Hong Kong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hong Kong.png"; path = "/Library/Application Support/Apple/iChat Icons/Flags/Hong Kong.png"; sourceTree = "<absolute>"; };
+		A9D4100515B561DE000E11C8 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = SOURCE_ROOT; };
+		A9D4100615B561DE000E11C8 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94CF86115B1A19D00202290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94CF86915B1A19D00202290 /* UIKit.framework in Frameworks */,
+				A94CF86B15B1A19D00202290 /* Foundation.framework in Frameworks */,
+				A94CF86D15B1A19D00202290 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E885D3E15B583EE00B17AA3 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				A9D4100515B561DE000E11C8 /* bar.png */,
+				A9D4100615B561DE000E11C8 /* 背景.png */,
+				A94CF88515B1A93600202290 /* Argentina.png */,
+				A94CF88615B1A93600202290 /* Australia.png */,
+				A94CF88715B1A93600202290 /* Austria.png */,
+				A94CF88815B1A93600202290 /* Cameroon.png */,
+				A94CF88915B1A93600202290 /* Canada.png */,
+				A94CF88A15B1A93600202290 /* France.png */,
+				A94CF88B15B1A93600202290 /* Germany.png */,
+				A94CF88C15B1A93600202290 /* Hong Kong.png */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+		A94CF85915B1A19D00202290 = {
+			isa = PBXGroup;
+			children = (
+				A94CF86E15B1A19D00202290 /* TJWorkshop */,
+				A94CF86715B1A19D00202290 /* Frameworks */,
+				A94CF86515B1A19D00202290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94CF86515B1A19D00202290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94CF86415B1A19D00202290 /* TJWorkshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94CF86715B1A19D00202290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94CF86815B1A19D00202290 /* UIKit.framework */,
+				A94CF86A15B1A19D00202290 /* Foundation.framework */,
+				A94CF86C15B1A19D00202290 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94CF86E15B1A19D00202290 /* TJWorkshop */ = {
+			isa = PBXGroup;
+			children = (
+				5E885D8415B5850200B17AA3 /* InformationToPush.h */,
+				5E885D8515B5850200B17AA3 /* InformationToPush.m */,
+				5E885D8615B5850200B17AA3 /* PersonalInfo.h */,
+				5E885D8715B5850200B17AA3 /* PersonalInfo.m */,
+				5E885D8815B5850200B17AA3 /* PlaneTicket.h */,
+				5E885D8915B5850200B17AA3 /* PlaneTicket.m */,
+				5E885D8A15B5850200B17AA3 /* User.h */,
+				5E885D8B15B5850200B17AA3 /* User.m */,
+				5E885D3E15B583EE00B17AA3 /* sources */,
+				A94CF87715B1A19D00202290 /* TJAppDelegate.h */,
+				A94CF87815B1A19D00202290 /* TJAppDelegate.m */,
+				A94CF87A15B1A19D00202290 /* MainStoryboard.storyboard */,
+				A94CF87D15B1A19D00202290 /* TJViewController.h */,
+				A94CF87E15B1A19D00202290 /* TJViewController.m */,
+				A94CF86F15B1A19D00202290 /* Supporting Files */,
+			);
+			path = TJWorkshop;
+			sourceTree = "<group>";
+		};
+		A94CF86F15B1A19D00202290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94CF87015B1A19D00202290 /* TJWorkshop-Info.plist */,
+				A94CF87115B1A19D00202290 /* InfoPlist.strings */,
+				A94CF87415B1A19D00202290 /* main.m */,
+				A94CF87615B1A19D00202290 /* TJWorkshop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94CF86315B1A19D00202290 /* TJWorkshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94CF88215B1A19D00202290 /* Build configuration list for PBXNativeTarget "TJWorkshop" */;
+			buildPhases = (
+				A94CF86015B1A19D00202290 /* Sources */,
+				A94CF86115B1A19D00202290 /* Frameworks */,
+				A94CF86215B1A19D00202290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJWorkshop;
+			productName = TJWorkshop;
+			productReference = A94CF86415B1A19D00202290 /* TJWorkshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94CF85B15B1A19D00202290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TJ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A94CF85E15B1A19D00202290 /* Build configuration list for PBXProject "TJWorkshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A94CF85915B1A19D00202290;
+			productRefGroup = A94CF86515B1A19D00202290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94CF86315B1A19D00202290 /* TJWorkshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94CF86215B1A19D00202290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94CF87315B1A19D00202290 /* InfoPlist.strings in Resources */,
+				A94CF87C15B1A19D00202290 /* MainStoryboard.storyboard in Resources */,
+				A94CF88D15B1A93600202290 /* Argentina.png in Resources */,
+				A94CF88E15B1A93600202290 /* Australia.png in Resources */,
+				A94CF88F15B1A93600202290 /* Austria.png in Resources */,
+				A94CF89015B1A93600202290 /* Cameroon.png in Resources */,
+				A94CF89115B1A93600202290 /* Canada.png in Resources */,
+				A94CF89215B1A93600202290 /* France.png in Resources */,
+				A94CF89315B1A93600202290 /* Germany.png in Resources */,
+				A94CF89415B1A93600202290 /* Hong Kong.png in Resources */,
+				A9D4100715B561DE000E11C8 /* bar.png in Resources */,
+				A9D4100815B561DE000E11C8 /* 背景.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94CF86015B1A19D00202290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94CF87515B1A19D00202290 /* main.m in Sources */,
+				A94CF87915B1A19D00202290 /* TJAppDelegate.m in Sources */,
+				A94CF87F15B1A19D00202290 /* TJViewController.m in Sources */,
+				5E885D8C15B5850200B17AA3 /* InformationToPush.m in Sources */,
+				5E885D8D15B5850200B17AA3 /* PersonalInfo.m in Sources */,
+				5E885D8E15B5850200B17AA3 /* PlaneTicket.m in Sources */,
+				5E885D8F15B5850200B17AA3 /* User.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A94CF87115B1A19D00202290 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94CF87215B1A19D00202290 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A94CF87A15B1A19D00202290 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94CF87B15B1A19D00202290 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94CF88015B1A19D00202290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A94CF88115B1A19D00202290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94CF88315B1A19D00202290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJWorkshop/TJWorkshop-Prefix.pch";
+				INFOPLIST_FILE = "TJWorkshop/TJWorkshop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A94CF88415B1A19D00202290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJWorkshop/TJWorkshop-Prefix.pch";
+				INFOPLIST_FILE = "TJWorkshop/TJWorkshop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94CF85E15B1A19D00202290 /* Build configuration list for PBXProject "TJWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94CF88015B1A19D00202290 /* Debug */,
+				A94CF88115B1A19D00202290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94CF88215B1A19D00202290 /* Build configuration list for PBXNativeTarget "TJWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94CF88315B1A19D00202290 /* Debug */,
+				A94CF88415B1A19D00202290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94CF85B15B1A19D00202290 /* Project object */;
+}
