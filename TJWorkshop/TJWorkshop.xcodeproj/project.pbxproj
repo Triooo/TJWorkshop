@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E81905715B6991D000665C4 /* 分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E81905615B6991D000665C4 /* 分割线.png */; };
 		5E885D8C15B5850200B17AA3 /* InformationToPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8515B5850200B17AA3 /* InformationToPush.m */; };
 		5E885D8D15B5850200B17AA3 /* PersonalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8715B5850200B17AA3 /* PersonalInfo.m */; };
 		5E885D8E15B5850200B17AA3 /* PlaneTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D8915B5850200B17AA3 /* PlaneTicket.m */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E81905615B6991D000665C4 /* 分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线.png"; sourceTree = "<group>"; };
 		5E885D8415B5850200B17AA3 /* InformationToPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationToPush.h; sourceTree = "<group>"; };
 		5E885D8515B5850200B17AA3 /* InformationToPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationToPush.m; sourceTree = "<group>"; };
 		5E885D8615B5850200B17AA3 /* PersonalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfo.h; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A9D4100515B561DE000E11C8 /* bar.png */,
+				5E81905615B6991D000665C4 /* 分割线.png */,
 				A9D4100615B561DE000E11C8 /* 背景.png */,
 				5E885D9615B5903B00B17AA3 /* default.png */,
 				A94CF88515B1A93600202290 /* Argentina.png */,
@@ -254,6 +257,7 @@
 				A9D4100715B561DE000E11C8 /* bar.png in Resources */,
 				A9D4100815B561DE000E11C8 /* 背景.png in Resources */,
 				5E885D9715B5903B00B17AA3 /* default.png in Resources */,
+				5E81905715B6991D000665C4 /* 分割线.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

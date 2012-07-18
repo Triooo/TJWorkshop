@@ -78,7 +78,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="未标题-1.png" id="OY6-Ev-q54">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="分割线.png" id="OY6-Ev-q54">
                                 <rect key="frame" x="146" y="376" width="2" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -374,7 +374,7 @@
     </scenes>
     <resources>
         <image name="bar.png" width="454" height="595"/>
-        <image name="未标题-1.png" width="17" height="208"/>
+        <image name="分割线.png" width="17" height="208"/>
         <image name="背景.png" width="454" height="595"/>
     </resources>
     <classes>
