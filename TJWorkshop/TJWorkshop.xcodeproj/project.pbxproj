@@ -16,7 +16,11 @@
 		5E885D9A15B590EC00B17AA3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D9915B590EC00B17AA3 /* LoginViewController.m */; };
 		5E885D9F15B594C300B17AA3 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D9E15B594C300B17AA3 /* SignUpViewController.m */; };
 		5E885DA215B5951600B17AA3 /* PushInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885DA115B5951600B17AA3 /* PushInfoViewController.m */; };
+<<<<<<< HEAD
 		A911794215B93F3F00E586A1 /* UIBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A911794115B93F3F00E586A1 /* UIBackground.png */; };
+=======
+		5E8CB70F15B9365C00F967C0 /* AccountInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E8CB70E15B9365C00F967C0 /* AccountInfo.txt */; };
+>>>>>>> 帐号部分模拟基本完成
 		A94CF86915B1A19D00202290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86815B1A19D00202290 /* UIKit.framework */; };
 		A94CF86B15B1A19D00202290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86A15B1A19D00202290 /* Foundation.framework */; };
 		A94CF86D15B1A19D00202290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86C15B1A19D00202290 /* CoreGraphics.framework */; };
@@ -55,7 +59,11 @@
 		5E885D9E15B594C300B17AA3 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		5E885DA015B5951600B17AA3 /* PushInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushInfoViewController.h; sourceTree = "<group>"; };
 		5E885DA115B5951600B17AA3 /* PushInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInfoViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		A911794115B93F3F00E586A1 /* UIBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBackground.png; sourceTree = SOURCE_ROOT; };
+=======
+		5E8CB70E15B9365C00F967C0 /* AccountInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AccountInfo.txt; sourceTree = "<group>"; };
+>>>>>>> 帐号部分模拟基本完成
 		A94CF86415B1A19D00202290 /* TJWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94CF86815B1A19D00202290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A94CF86A15B1A19D00202290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,6 +158,14 @@
 			name = "Basic Classes";
 			sourceTree = "<group>";
 		};
+		5E8CB70D15B9365C00F967C0 /* text */ = {
+			isa = PBXGroup;
+			children = (
+				5E8CB70E15B9365C00F967C0 /* AccountInfo.txt */,
+			);
+			path = text;
+			sourceTree = "<group>";
+		};
 		A94CF85915B1A19D00202290 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +196,7 @@
 		A94CF86E15B1A19D00202290 /* TJWorkshop */ = {
 			isa = PBXGroup;
 			children = (
+				5E8CB70D15B9365C00F967C0 /* text */,
 				5E885D9C15B5928B00B17AA3 /* Basic Classes */,
 				5E885D9B15B5926C00B17AA3 /* View&Controller */,
 				A94CF87715B1A19D00202290 /* TJAppDelegate.h */,
@@ -266,7 +283,11 @@
 				A9D4100815B561DE000E11C8 /* 背景.png in Resources */,
 				5E885D9715B5903B00B17AA3 /* default.png in Resources */,
 				5E81905715B6991D000665C4 /* 分割线.png in Resources */,
+<<<<<<< HEAD
 				A911794215B93F3F00E586A1 /* UIBackground.png in Resources */,
+=======
+				5E8CB70F15B9365C00F967C0 /* AccountInfo.txt in Resources */,
+>>>>>>> 帐号部分模拟基本完成
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

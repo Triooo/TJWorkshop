@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextField *nameOfCount;
-@property (weak, nonatomic) IBOutlet UITextField *passwordOfCount;
-
+@interface LoginViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *nameOfAccount;
+@property (weak, nonatomic) IBOutlet UITextField *passwordOfAccount;
+- (IBAction)logInPressed ;
 @end

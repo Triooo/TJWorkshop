@@ -10,12 +10,12 @@
 
 @interface PersonalInfo : NSObject
 {
-    NSString *nameOfCount;
-    NSString *passwordOfCount;
+    NSString *nameOfAccount;
+    NSString *passwordOfAccount;
     NSString *email;
 }
-@property (nonatomic,strong) NSString *nameOfCount;
-@property (nonatomic,strong) NSString *passwordOfCount;
+@property (nonatomic,strong) NSString *nameOfAccount;
+@property (nonatomic,strong) NSString *passwordOfAccount;
 @property (nonatomic,strong) NSString *email;
 
 @end

@@ -87,7 +87,11 @@
                     </view>
                 </viewController>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-424" y="-330"/>
+=======
+            <point key="canvasLocation" x="-360" y="-144"/>
+>>>>>>> 帐号部分模拟基本完成
         </scene>
         <!--Login View Controller-->
         <scene sceneID="ZLd-K2-fZc">
@@ -113,7 +117,7 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fQQ-P7-sMQ">
-                                <rect key="frame" x="40" y="218" width="76" height="37"/>
+                                <rect key="frame" x="27" y="218" width="76" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="LOG IN">
@@ -124,11 +128,16 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="PRM-i8-M7T" kind="modal" id="4K9-jU-LF4"/>
+=======
+                                    <action selector="logInPressed" destination="d6j-mq-ZCh" eventType="touchUpInside" id="dcV-ab-5rL"/>
+                                    <segue destination="OVD-aK-4ZP" kind="modal" id="84N-rc-MBf"/>
+>>>>>>> 帐号部分模拟基本完成
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xOU-NL-6C0">
-                                <rect key="frame" x="207" y="218" width="74" height="37"/>
+                                <rect key="frame" x="226" y="218" width="74" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Cancel">
@@ -148,6 +157,9 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <connections>
+                                    <outlet property="delegate" destination="d6j-mq-ZCh" id="Ead-Ti-s32"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="1Q3-zS-LWE">
                                 <rect key="frame" x="64" y="179" width="192" height="31"/>
@@ -155,12 +167,15 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <connections>
+                                    <outlet property="delegate" destination="d6j-mq-ZCh" id="v2Q-j3-EM0"/>
+                                </connections>
                             </textField>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="nameOfCount" destination="m4O-kz-xdx" id="1Ge-kc-Fgd"/>
-                        <outlet property="passwordOfCount" destination="1Q3-zS-LWE" id="5Ji-pS-uJD"/>
+                        <outlet property="nameOfAccount" destination="m4O-kz-xdx" id="o2T-Zf-ZvF"/>
+                        <outlet property="passwordOfAccount" destination="1Q3-zS-LWE" id="Whp-T2-pHI"/>
                     </connections>
                 </viewController>
             </objects>
@@ -226,6 +241,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="GgU-pp-IsE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="j9v-Cq-uq6">
                                         <rect key="frame" x="188" y="8" width="29" height="29"/>
@@ -305,6 +323,7 @@
                     <navigationItem key="navigationItem" title="Title" id="tXX-2B-xru"/>
                 </viewController>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1316" y="-1277"/>
         </scene>
         <!--Table View Controller - Root View Controller-->
@@ -475,6 +494,9 @@
                 </navigationController>
             </objects>
             <point key="canvasLocation" x="945" y="532"/>
+=======
+            <point key="canvasLocation" x="589" y="-582"/>
+>>>>>>> 帐号部分模拟基本完成
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="af2-2o-iuh">
@@ -505,6 +527,9 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ngE-S8-Gj5" id="P2R-DC-yrP"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="gX7-Db-Z7h">
                                 <rect key="frame" x="64" y="159" width="192" height="31"/>
@@ -512,6 +537,9 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ngE-S8-Gj5" id="WiM-Gr-lW1"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="7gm-16-1U7">
                                 <rect key="frame" x="64" y="198" width="192" height="31"/>
@@ -519,9 +547,12 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ngE-S8-Gj5" id="ik6-Ss-nfd"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Os1-bx-pv5">
-                                <rect key="frame" x="39" y="237" width="86" height="37"/>
+                                <rect key="frame" x="20" y="237" width="86" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="SIGN UP">
@@ -532,11 +563,12 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="signUpPressed" destination="ngE-S8-Gj5" eventType="touchUpInside" id="vdZ-dZ-9zI"/>
+                                    <action selector="signUpPressed" destination="ngE-S8-Gj5" eventType="touchUpInside" id="xCG-3x-3F7"/>
+                                    <segue destination="OVD-aK-4ZP" kind="modal" id="bNf-2U-Gzp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G1L-0I-cH3">
-                                <rect key="frame" x="208" y="237" width="74" height="37"/>
+                                <rect key="frame" x="226" y="237" width="74" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Cancel">
@@ -563,14 +595,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="emailOfNewCount" destination="7gm-16-1U7" id="kdn-LQ-Udd"/>
-                        <outlet property="nameOfNewCount" destination="kDp-bO-OCk" id="WLT-7h-t99"/>
-                        <outlet property="passwordOfNewCount" destination="gX7-Db-Z7h" id="9vr-HZ-Ta8"/>
-                        <outlet property="signUpPressed" destination="Os1-bx-pv5" id="YSG-Yl-EsO"/>
+                        <outlet property="emailOfNewAccount" destination="7gm-16-1U7" id="hr0-RK-enR"/>
+                        <outlet property="nameOfNewAccount" destination="kDp-bO-OCk" id="EdD-IV-Ey1"/>
+                        <outlet property="passwordOfNewAccount" destination="gX7-Db-Z7h" id="FF5-Bu-Kns"/>
                     </connections>
                 </viewController>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-26" y="67"/>
+=======
+            <point key="canvasLocation" x="438" y="167"/>
+>>>>>>> 帐号部分模拟基本完成
         </scene>
     </scenes>
     <resources>
@@ -586,16 +621,18 @@
         <class className="LoginViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="nameOfCount" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="passwordOfCount" candidateClass="UITextField"/>
+                <relationship kind="action" name="logInPressed"/>
+                <relationship kind="outlet" name="nameOfAccount" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passwordOfAccount" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="SignUpViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SignUpViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="emailOfNewCount" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="nameOfNewCount" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="passwordOfNewCount" candidateClass="UITextField"/>
+                <relationship kind="action" name="signUpPressed"/>
+                <relationship kind="outlet" name="emailOfNewAccount" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="nameOfNewAccount" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passwordOfNewAccount" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="TJViewController" superclassName="UIViewController">
@@ -609,5 +646,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="8Jd-kM-0iA"/>
+<<<<<<< HEAD
+=======
+        <segue reference="84N-rc-MBf"/>
+>>>>>>> 帐号部分模拟基本完成
     </inferredMetricsTieBreakers>
 </document>
