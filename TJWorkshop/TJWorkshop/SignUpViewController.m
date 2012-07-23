@@ -23,18 +23,10 @@
     NSFileManager *fm = [NSFileManager defaultManager];
     NSString *filePath;
     filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"AccountInfo.txt"];
-    filePath = [NSString stringWithFormat:@"/Users/Yougmark/Desktop/AccountInfo.txt"];
+//    filePath = [NSString stringWithFormat:@"/Users/Yougmark/Desktop/AccountInfo.txt"];
     
     //Now open outfile for writing 
-    
     NSFileHandle *outFile = [NSFileHandle fileHandleForWritingAtPath:filePath];
-
-//  [@"what happend" writeToFile:filePath atomically:YES
-//                        encoding:NSUTF8StringEncoding
-//                           error:Nil];
-//    const char *cFilePath = [filePath UTF8String];
-//    FILE *outFile = fopen(cFilePath, "a+");
-
     if ( outFile == nil ) //检测是否有AccountInfo.txt
     {
         NSLog(@"no existed AccountInfo.txt");
@@ -58,46 +50,12 @@
     }
 
 }
-//bool putAWordIntoFile(FILE* cfile,const char* word,const char* c)
-//{
-//    int i = 0;
-//    if (cfile != nil) 
-//    {
-//        NSLog(@"begin to input to AccountInfo.txt");
-//        fputs(word,cfile);
-//        putc(*c, cfile);
-//        return true;
-//    }
-//    else {
-//        NSLog(@"fail to input a word into file");
-//        return false;
-//    }
-//}
 
 -(void)writeNewAccountIntoFile:(NSFileHandle *)file
           withNameOfNewAccount:(NSString *)name
        andPasswordOfNewAccount:(NSString *)password 
                       andEmail:(NSString *)email
 {
-//    const char *cName = [name UTF8String];
-//    const char *cPassword = [password UTF8String];
-//    const char *cEmail = [email UTF8String];
-//    if (!putAWordIntoFile(cfile, cName, " ")) {
-//        NSLog(@"fail to input name of account to file");
-//        return NO;
-//    }
-//    if (!putAWordIntoFile(cfile, cPassword, " ")) {
-//        NSLog(@"fail to input password of account to file");
-//        return NO;
-//    }
-//    if (!putAWordIntoFile(cfile, cEmail, "\n")) {
-//        NSLog(@"fail to input email of account to file");
-//        return NO;
-//    }
-//    else {
-//        return YES;
-//    }
-//    NSError *error;
     NSString *wordToInput = [NSString stringWithFormat:@"%@ %@ %@\n",name,password,email];
     [file seekToEndOfFile];
     NSData *dataToWrite= [wordToInput dataUsingEncoding:NSUTF8StringEncoding];
@@ -145,7 +103,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return (interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown);
 }
 
 @end

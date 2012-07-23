@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "User.h"
+#import "PushInfoViewController.h"
 
 @interface LoginViewController ()
 
@@ -33,23 +34,38 @@
 //    fgets(&c,1,f);
 //    NSLog(@"?");
     char cInfoOfThisUser[50] = {0};
-
-    NSString *infoFromAccountInfo = [NSString stringWithContentsOfFile:@"/Users/Yougmark/Desktop/AccountInfo.txt"];
+    
+    UIAlertView *wrongPasswordAlert = [[UIAlertView alloc] initWithTitle:@"Sorry,wrong password" 
+                                                                 message:@"No this account or the password is wrong" 
+                                                                delegate:nil 
+                                                       cancelButtonTitle:@"Try again" 
+                                                       otherButtonTitles:nil];
+    NSString *infoFromAccountInfo = [NSString stringWithContentsOfFile:[NSHomeDirectory() stringByAppendingFormat:@"/Documents/AccountInfo.txt"]];
     NSRange rangeOfName = [infoFromAccountInfo rangeOfString:self.nameOfAccount.text];
-    if (rangeOfName.length > 0) {
-        NSLog(@"Range is %@",NSStringFromRange(rangeOfName));
+    if (rangeOfName.length > 0) 
+    {
+//        NSLog(@"Range is %@",NSStringFromRange(rangeOfName));
         rangeOfName.location +=rangeOfName.length +1;
         rangeOfName.length = 50;
         [infoFromAccountInfo getCString:cInfoOfThisUser maxLength:50 range:rangeOfName remainingRange:nil];
-        if ([self isAccountAccessible:cInfoOfThisUser]) {
-            NSLog(@"Accessible");
+        if ([self isAccountAccessible:cInfoOfThisUser]) 
+        {
+//            NSLog(@"Accessible");
+            PushInfoViewController *pushInfoView = [self.storyboard instantiateViewControllerWithIdentifier:@"PushInfoView"];
+            [self.navigationController pushViewController:pushInfoView animated:YES];
         }
-        else {
-            NSLog(@"Not Accessible");
+        else 
+        {
+//            NSLog(@"Not Accessible");
+            self.passwordOfAccount.text = nil;
+
+            [wrongPasswordAlert show];
         }
     }
-    else {
-        NSLog(@"Not Accessible");
+    else 
+    {
+//        NSLog(@"Not Accessible");
+        [wrongPasswordAlert show];
     }
 }
 
@@ -70,14 +86,6 @@
     else {
         return NO;
     }
-//    j = 0;
-//    i++;
-//    while (cstr[i] != ' ' && cstr[i] != '\n' )
-//    {
-//        j++;
-//        i++;
-//    }
-//    [self.passwordOfAccount.text isEqualToString:[NSString stringWithCString:cstr length:j]];
 }
 
 
@@ -107,7 +115,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return (interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown);
 }
 
 @end
