@@ -16,6 +16,7 @@
 		5E885D9A15B590EC00B17AA3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D9915B590EC00B17AA3 /* LoginViewController.m */; };
 		5E885D9F15B594C300B17AA3 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885D9E15B594C300B17AA3 /* SignUpViewController.m */; };
 		5E885DA215B5951600B17AA3 /* PushInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E885DA115B5951600B17AA3 /* PushInfoViewController.m */; };
+		A911794215B93F3F00E586A1 /* UIBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A911794115B93F3F00E586A1 /* UIBackground.png */; };
 		A94CF86915B1A19D00202290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86815B1A19D00202290 /* UIKit.framework */; };
 		A94CF86B15B1A19D00202290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86A15B1A19D00202290 /* Foundation.framework */; };
 		A94CF86D15B1A19D00202290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CF86C15B1A19D00202290 /* CoreGraphics.framework */; };
@@ -32,6 +33,7 @@
 		A94CF89215B1A93600202290 /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88A15B1A93600202290 /* France.png */; };
 		A94CF89315B1A93600202290 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88B15B1A93600202290 /* Germany.png */; };
 		A94CF89415B1A93600202290 /* Hong Kong.png in Resources */ = {isa = PBXBuildFile; fileRef = A94CF88C15B1A93600202290 /* Hong Kong.png */; };
+		A990413B15B9321C00CD5E1F /* HomeCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = A990413A15B9321C00CD5E1F /* HomeCheckController.m */; };
 		A9D4100715B561DE000E11C8 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D4100515B561DE000E11C8 /* bar.png */; };
 		A9D4100815B561DE000E11C8 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D4100615B561DE000E11C8 /* 背景.png */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,7 @@
 		5E885D9E15B594C300B17AA3 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		5E885DA015B5951600B17AA3 /* PushInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushInfoViewController.h; sourceTree = "<group>"; };
 		5E885DA115B5951600B17AA3 /* PushInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInfoViewController.m; sourceTree = "<group>"; };
+		A911794115B93F3F00E586A1 /* UIBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBackground.png; sourceTree = SOURCE_ROOT; };
 		A94CF86415B1A19D00202290 /* TJWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94CF86815B1A19D00202290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A94CF86A15B1A19D00202290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,6 +77,8 @@
 		A94CF88A15B1A93600202290 /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = France.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/France.png"; sourceTree = "<absolute>"; };
 		A94CF88B15B1A93600202290 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Germany.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/Germany.png"; sourceTree = "<absolute>"; };
 		A94CF88C15B1A93600202290 /* Hong Kong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hong Kong.png"; path = "/Library/Application Support/Apple/iChat Icons/Flags/Hong Kong.png"; sourceTree = "<absolute>"; };
+		A990413915B9321C00CD5E1F /* HomeCheckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCheckController.h; sourceTree = "<group>"; };
+		A990413A15B9321C00CD5E1F /* HomeCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCheckController.m; sourceTree = "<group>"; };
 		A9D4100515B561DE000E11C8 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = SOURCE_ROOT; };
 		A9D4100615B561DE000E11C8 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -95,6 +100,7 @@
 		5E885D3E15B583EE00B17AA3 /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				A911794115B93F3F00E586A1 /* UIBackground.png */,
 				A9D4100515B561DE000E11C8 /* bar.png */,
 				5E81905615B6991D000665C4 /* 分割线.png */,
 				A9D4100615B561DE000E11C8 /* 背景.png */,
@@ -123,6 +129,8 @@
 				5E885D9E15B594C300B17AA3 /* SignUpViewController.m */,
 				5E885DA015B5951600B17AA3 /* PushInfoViewController.h */,
 				5E885DA115B5951600B17AA3 /* PushInfoViewController.m */,
+				A990413915B9321C00CD5E1F /* HomeCheckController.h */,
+				A990413A15B9321C00CD5E1F /* HomeCheckController.m */,
 			);
 			name = "View&Controller";
 			sourceTree = "<group>";
@@ -258,6 +266,7 @@
 				A9D4100815B561DE000E11C8 /* 背景.png in Resources */,
 				5E885D9715B5903B00B17AA3 /* default.png in Resources */,
 				5E81905715B6991D000665C4 /* 分割线.png in Resources */,
+				A911794215B93F3F00E586A1 /* UIBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +287,7 @@
 				5E885D9A15B590EC00B17AA3 /* LoginViewController.m in Sources */,
 				5E885D9F15B594C300B17AA3 /* SignUpViewController.m in Sources */,
 				5E885DA215B5951600B17AA3 /* PushInfoViewController.m in Sources */,
+				A990413B15B9321C00CD5E1F /* HomeCheckController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
